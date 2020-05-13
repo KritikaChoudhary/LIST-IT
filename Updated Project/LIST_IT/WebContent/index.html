@@ -1,0 +1,66 @@
+<!-- First page of the project. Execution begins here 
+	 
+	 To run this project
+	 1. Create a database and name it myjdbc
+	 2. Create a table in the database and name it 'listit'
+	 3. Insert 4 columns into the table and name them:
+	 	i) id (int) - primary key
+	 	ii) title (varchar(45))
+	 	iii)description (varchar(100))
+	 	iv) status (varchar(45))
+	 4. Change the username and password in appropriate jsp and servlet files according to your mysql settings 
+	 5. Run the file
+	 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		LIST-IT - The Kanban Style 
+	</title>
+	<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="icons8-scroll-64.png" /> 											
+	<style>
+	button {
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+	font{
+		font-family: 'Ubuntu', sans-serif;
+		
+	}
+	</style>
+</head>
+<body background="1.jpg" link="#000" alink="#017bf5" vlink="#000">
+	<br />
+	<h3 align="center">
+		<img src="2.bmp" width="300" height="194">
+
+	</h3>
+	<h1 align="center">
+		<font color="#1f4068" size="7">
+			LIST - IT
+		</font>
+	</h1>
+	<br>
+	<h3 align="center">
+		<font color="#00a1ab" size="5">
+			Project Management Board
+		</font>
+	</h3>
+	<br />
+	<h3 align="center">
+	<a href="list.jsp"><button class="button btn btn-success">Let's Get Started</button></a>
+	</h3>
+</body>
+</html>
