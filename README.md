@@ -1,12 +1,12 @@
 # Java-J2EE-Assignment
 This project was done by me and my teammate as a part of JAVA&J2EE assignment
 
-#LIST-IT
+# LIST-IT
 It is a web-based Kanban-style list-making application for personal use written in JAVA.
 
 Users can create cards that can be placed in one of the lists: To Do, In Progress, Done and moved between them.
 
-#Architecture
+# Architecture
 The application is built using JSP, JSTL, JDBC and Servlets.
 
 It can be run using Eclipse software on Tomcat server. 
